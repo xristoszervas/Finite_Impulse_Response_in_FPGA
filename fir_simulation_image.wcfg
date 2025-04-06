@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fir_simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fir_simulation" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,448.001 ns"></ZoomEndTime>
+      <Cursor1Time time="880.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="161"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/fir_simulation/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/ENABLE" type="logic">
+      <obj_property name="ElementShortName">ENABLE</obj_property>
+      <obj_property name="ObjectShortName">ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/input_data" type="array">
+      <obj_property name="ElementShortName">input_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/data" type="array">
+      <obj_property name="ElementShortName">data[99:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[99:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/output_data" type="array">
+      <obj_property name="ElementShortName">output_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/sampleT" type="array">
+      <obj_property name="ElementShortName">sampleT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/FILE1" type="array">
+      <obj_property name="ElementShortName">FILE1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILE1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/N1" type="array">
+      <obj_property name="ElementShortName">N1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/N2" type="array">
+      <obj_property name="ElementShortName">N2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_simulation/N3" type="array">
+      <obj_property name="ElementShortName">N3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N3[31:0]</obj_property>
+   </wvobject>
+</wave_config>
